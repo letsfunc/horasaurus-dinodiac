@@ -1,15 +1,24 @@
 {
-  "name": "horasaurus-dinodiac",
-  "version": "0.0.1",
-  "description": "quiz to match your zodiac with a dinosaur",
-  "private" : true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/letsfunc/horasaurus-dinodiac.git"
-  },
-  "author": "letsfunc",
-  "bugs": {
-    "url": "https://github.com/letsfunc/horasaurus-dinodiac/issues"
-  },
-  "homepage": "https://github.com/letsfunc/horasaurus-dinodiac#readme"
+    "name": "horasaurus-dinodiac",
+    "version": "0.0.1",
+    "description": "quiz to match your zodiac with a dinosaur",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/letsfunc/horasaurus-dinodiac.git"
+    },
+    "author": "letsfunc",
+    "bugs": {
+        "url": "https://github.com/letsfunc/horasaurus-dinodiac/issues"
+    },
+    "homepage": "https://github.com/letsfunc/horasaurus-dinodiac#readme",
+    "devDependencies": {
+        "parcel": "^2.0.1"
+    },
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead"
 }
